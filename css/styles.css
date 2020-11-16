@@ -381,6 +381,8 @@ text-align: center;
 .social-icons-link:hover .social-icons-svg, 
 .social-icons-link:focus .social-icons-svg{
 fill: var(--accent-cl);
+
+
 }
  
 
@@ -453,11 +455,18 @@ color: var(--accent-cl);
 display: flex;
 Justify-content: center;
 margin-bottom: 50px;
+
+
  
 }
 
 .button-margin{
   margin-right: 8px;
+  border-color: #ffffff;
+  
+  
+  
+
 }
   
 .section-title {
@@ -501,3 +510,6 @@ margin-top: 30px;
   
 }
 
+
+
+ 
