@@ -99,8 +99,15 @@ margin: 0px;
 .menu-item:not(:last-child){margin-right: 50px;
 }
 
+.mail-tel-svg{
+  
+ fill: var(--gray);
+ margin-right: 10px;
+  width: 16px;
+  height: 12px;
+}
 
-
+ 
 
 
 .header{
@@ -271,15 +278,23 @@ color:var(--gray);
 
 .vector-logo-item{
   margin-right: 30px;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+
 }
 
 
 .vector-logo-svg{
-  width: 270px;
-  height: 120px;
+  display: flex;
+  margin-top: 25px;
+  margin-left: 25px;
+  width: 70px;
+  height: 60px;
   fill: var(--gray);
-justify-content: center;
-  align-items: center;
+margin-left: auto;
+margin-right: auto;
+
 }
 
 .section-job{
