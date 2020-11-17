@@ -94,9 +94,11 @@ a{text-decoration: none;}
 display: inline-flex;
 padding: 0px;
 margin: 0px;
+
 }
 
 .menu-item:not(:last-child){margin-right: 50px;
+  
 }
 
 .mail-tel-svg{
@@ -339,7 +341,7 @@ color:var(--black);
 
   margin-top: 30px;
   flex-basis: calc(100% / 4 - 30px);
-  margin-bottom: 205px;
+  margin-bottom: 188px;
 }
 
 
@@ -359,14 +361,13 @@ text-align: center;
 }
 
 .social-icons-item:not(:last-child) {
-  margin-right: 10px;
+  margin-right: 10px; 
 }
 
 .social-icons-svg{
   width: 20px;
   height: 20px;
   fill: var(--gray);
-
 }
 .social-icons-link{
   display: flex;
@@ -375,17 +376,18 @@ text-align: center;
   width: 44px;
   height: 44px;
   background-color: var(--button);
-  border-radius: 50%;
+  border-radius: 50%; 
+  
 }
 
 .social-icons-link:hover .social-icons-svg, 
 .social-icons-link:focus .social-icons-svg{
-fill: var(--accent-cl);
-
+fill: var(--button);
 
 }
- 
-
+ .social-icons-link:hover{
+   background-color: var(--accent-cl);
+ }
 
 
 .position{
@@ -456,17 +458,11 @@ display: flex;
 Justify-content: center;
 margin-bottom: 50px;
 
-
- 
 }
 
 .button-margin{
   margin-right: 8px;
   border-color: #ffffff;
-  
-  
-  
-
 }
   
 .section-title {
@@ -498,9 +494,7 @@ margin-top: 0px;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
-  padding: 0px;
- 
-  
+  padding: 0px; 
 }
 
 .tabl-item{
@@ -510,6 +504,55 @@ margin-top: 30px;
   
 }
 
+.clients{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--black);
+margin-bottom: 50px;
+}
 
 
- 
+.test{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 94px;
+  
+  
+}
+
+
+.clients-item{
+  background-color:tomato;
+  width: 170px;
+  height: 90px;
+  text-align: center;
+  background-color: var(--button);
+  border: 1px solid var(--gray);
+  box-sizing: border-box;
+  border-radius: 4px;
+  list-style: none;
+  
+   
+  
+}
+
+
+.clients-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+
+.clients-icons-svg{
+fill: var(--gray);
+  width: 40px;
+  height: 52px;
+  margin-top: 19px;
+  margin-bottom: 19px;
+  
+}
